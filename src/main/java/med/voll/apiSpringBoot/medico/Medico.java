@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.apiSpringBoot.controller.AtualizacaoMedicoDTO;
 import med.voll.apiSpringBoot.endereco.Endereco;
 
 @Table(name = "medicos")
