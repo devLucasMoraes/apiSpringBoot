@@ -17,7 +17,7 @@ public record DadosEndereco(
         @NotBlank
         String uf,
         @NotBlank
-                @Pattern(regexp = "\\d{8}")
+        @Pattern(regexp = "\\d{8}")
         String cep
 ) {
 }

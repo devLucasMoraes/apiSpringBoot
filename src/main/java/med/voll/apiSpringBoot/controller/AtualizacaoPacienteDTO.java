@@ -1,9 +1,9 @@
-package med.voll.apiSpringBoot.medico;
+package med.voll.apiSpringBoot.controller;
 
 import jakarta.validation.constraints.NotNull;
 import med.voll.apiSpringBoot.endereco.DadosEndereco;
 
-public record AtualizacaoMedicoDTO(
+public record AtualizacaoPacienteDTO(
         @NotNull
         Long id,
         String nome,

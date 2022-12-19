@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import med.voll.apiSpringBoot.controller.AtualizacaoPacienteDTO;
 import med.voll.apiSpringBoot.endereco.Endereco;
 
 @Table(name = "pacientes")
@@ -32,5 +33,21 @@ public class Paciente {
         this.cpf = dados.cpf();
         this.endereco = new Endereco(dados.dadosEndereco());
         this.ativo = true;
+    }
+
+    public void atualizarInformacoes(AtualizacaoPacienteDTO dados) {
+        if(dados.nome() != null){
+            this.nome = dados.nome();
+        }
+        if(dados.telefone() != null){
+            this.telefone = dados.telefone();
+        }
+        if(dados.dadosEndereco() != null){
+            this.endereco.atualizarInformacoes(dados.dadosEndereco());
+        }
+    }
+
+    public void excluir() {
+        this.ativo = false;
     }
 }
