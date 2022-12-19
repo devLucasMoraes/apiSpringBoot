@@ -1,10 +1,7 @@
 package med.voll.apiSpringBoot.controller;
 
 import jakarta.validation.Valid;
-import med.voll.apiSpringBoot.medico.CadastroMedicoDTO;
-import med.voll.apiSpringBoot.medico.ListagenMedicoDTO;
-import med.voll.apiSpringBoot.medico.Medico;
-import med.voll.apiSpringBoot.medico.MedicoRepository;
+import med.voll.apiSpringBoot.medico.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

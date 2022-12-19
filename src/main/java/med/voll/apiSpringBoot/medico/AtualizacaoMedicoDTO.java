@@ -1,4 +1,4 @@
-package med.voll.apiSpringBoot.controller;
+package med.voll.apiSpringBoot.medico;
 
 import jakarta.validation.constraints.NotNull;
 import med.voll.apiSpringBoot.endereco.DadosEndereco;
