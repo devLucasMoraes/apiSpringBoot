@@ -4,7 +4,7 @@ import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import med.voll.apiSpringBoot.endereco.DadosEndereco;
+import med.voll.apiSpringBoot.endereco.DadosEnderecoDTO;
 
 public record CadastroPacienteDTO(
         @NotBlank
@@ -19,6 +19,6 @@ public record CadastroPacienteDTO(
 
         String cpf,
         @NotNull @Valid
-        DadosEndereco dadosEndereco
+        DadosEnderecoDTO dadosEnderecoDTO
 ) {
 }
