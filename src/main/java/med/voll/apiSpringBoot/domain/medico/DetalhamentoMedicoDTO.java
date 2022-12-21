@@ -1,6 +1,6 @@
-package med.voll.apiSpringBoot.medico;
+package med.voll.apiSpringBoot.domain.medico;
 
-import med.voll.apiSpringBoot.endereco.Endereco;
+import med.voll.apiSpringBoot.domain.endereco.Endereco;
 
 public record DetalhamentoMedicoDTO(
         String nome,

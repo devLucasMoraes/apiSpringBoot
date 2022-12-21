@@ -1,4 +1,4 @@
-package med.voll.apiSpringBoot.endereco;
+package med.voll.apiSpringBoot.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

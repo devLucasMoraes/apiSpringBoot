@@ -1,4 +1,4 @@
-package med.voll.apiSpringBoot.paciente;
+package med.voll.apiSpringBoot.domain.paciente;
 
 public record ListagenPacienteDTO(
         Long id,
